@@ -1,0 +1,6 @@
+CREATE TABLE notes(
+    id SERIAL PRIMARY KEY,
+    category VARCHAR(50) NOT NULL,
+    note VARCHAR(50) NOT NULL,
+    important BOOLEAN DEFAULT FALSE
+)
